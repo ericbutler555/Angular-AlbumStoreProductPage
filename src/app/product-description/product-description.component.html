@@ -1,6 +1,6 @@
 <div class="row description">
   <div class="col-sm-2">
-    <img [src]="albumInfo?.album.coverImage" alt="Album cover art for {{ albumInfo?.album.name }}, by {{ albumInfo?.artist }}" />
+    <img src="{{ albumInfo?.album.coverImage }}" alt="Album cover art for {{ albumInfo?.album.name }}, by {{ albumInfo?.artist }}" />
   </div>
   <div class="col-sm-6">
     <p class="album-name">{{ albumInfo?.album.name }}</p>
